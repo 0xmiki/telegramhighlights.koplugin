@@ -82,7 +82,7 @@ Send book highlights and screenshots from KOReader to a Telegram bot [@bookshots
 
 ## About the Bot
 
-The bot is hosted on [Deno Deploy](https://deno.com/deploy) and uses Deno’s key-value store to manage user preferences and IDs.
+The bot is hosted on [Deno Deploy](https://deno.com/deploy) and uses Deno’s key-value store to manage user preferences and IDs. The miniapp codebase is available at https://github.com/0xmiki/bookshots-miniapp.
 
 ---
 
