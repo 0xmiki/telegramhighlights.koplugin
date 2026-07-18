@@ -66,7 +66,7 @@ local function sendBulkBookmarksToBot(self, items,  _current_attempt)
 
         local sink = {}
         socketutil:set_timeout(30)
-        local BOT_BULK_SERVER_URL = "https://koreader-plugin-bot-server.deno.dev/bulk_create"
+        local BOT_BULK_SERVER_URL = "https://koreader-plugin-bot-server.0xmiki.deno.net/bulk_create"
         local req_params = {
             url = BOT_BULK_SERVER_URL,
             method = "POST",

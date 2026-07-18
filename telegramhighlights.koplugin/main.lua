@@ -15,7 +15,7 @@ local Screenshoter = require("custom_screenshot")
 
 local TelegramHighlights = WidgetContainer:new {
     name = "telegramhighlights",
-    BOT_SERVER_URL = "https://koreader-plugin-bot-server.deno.dev/highlight",
+    BOT_SERVER_URL = "https://koreader-plugin-bot-server.0xmiki.deno.net/highlight",
     verification_code = "",
 }
 

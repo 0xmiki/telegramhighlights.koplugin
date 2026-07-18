@@ -66,7 +66,7 @@ local function sendScreenshotToBot(plugin, screenshot_path, _current_attempt)
         local timeout_seconds = 30 -- Increased timeout for image upload
         socketutil:set_timeout(timeout_seconds)
         local pcall_ok, http_res_val, http_status_code = pcall(http.request, {
-            url = "https://koreader-plugin-bot-server.deno.dev/send_screenshot",
+            url = "https://koreader-plugin-bot-server.0xmiki.deno.net/send_screenshot",
             method = "POST",
             headers = {
                 ["Content-Type"] = "multipart/form-data; boundary=" .. boundary,
